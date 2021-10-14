@@ -10,24 +10,17 @@
 </head>
 <body>
     <form action=""> 
-        <label for="nombre">
-            <span>Nombre:<br></span>
-            <input type="text" id="nombre" name="nombre" autocomplete="name" required>
-        </label> <br><br>
-        <label for="correo">
-            <span>Correo: <br></span>
-            <input type="email" id="correo" name="correo" autocomplete="email" required>
-        </label> <br><br>
-        <label for="pais">
-            <span>Pais: <br></span>
-            <input type="text" id="pais" name="pais" autocomplete="country" required>
-        </label> <br><br>
-        <label for="cp"> 
-            <span>CP: <br></span>
-            <input type="text" id="cp" name="cp" autocomplete="postal-code" required>
-        </label>
-        <br><br>
-        <input type="submit">
+        <label for="nombre"> Nombre<br></label>
+        <input type="text" name="nombre" id="nombre" autocomplete="name" required><br><br>
+        <label for="email"> E-mail<br></label>
+        <input type="text" name="email" id="email" autocomplete="email" required><br><br>
+        <label for="pais"> Páis<br></label>
+        <input type="text" name="pais" id="pais" autocomplete="country" required><br><br>
+        <label for="cp"> Código postal<br></label>
+        <input type="number" name="cp" id="cp" autocomplete="postal-code" required><br><br>
+        <input type="submit" id="submt">
+
+
     </form>
     
 </body>
