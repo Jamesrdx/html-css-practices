@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="Ejemplo con etiqueta select">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+</head>
+<body>
+   <main>
+    <h3> Solo es útil en pc de escritorio</h3>
+    <span> Ingrese el curso que desea tomar: <br><br></span>
+    <form>
+        <select name="" id="" > 
+           <option value="Javascript">Javascript</option>
+           <option value="HTML5">HTML5</option>
+           <option value="CSS3">CSS</option>
+           <option value="Carnita asada"> Carnita asada</option>
+       </select>
+       <input type="submit" id="submt">
+    </form>
+    
+    <br><br>
+    
+    <h3> Útil en pc de escitorio y en dispotivos moviles</h3>  
+    <span> Ingrese el curso que desea tomar: <br><br></span>
+       <form action="">
+        <input list="cursos">
+        <datalist id="cursos">
+            <option value="Javascript"></option>
+            <option value="HTML5"></option>
+            <option value="CSS3"></option>
+            <option value="Webs tandards"></option>    
+        </datalist>
+            <input type="submit" id="submt">
+        </form>
+   </main> 
+</body>
+</html>
